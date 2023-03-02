@@ -1,0 +1,866 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>f1e13724-284d-478c-b8bc-ef042aa5b70b.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessName" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="DBAName" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="LICSTATUS" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="LICENSECAT" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="DESCRIPT" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="LicenseAddDtTm" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="dayphn" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="Property_ID" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\Pratik\Downloads\f1e13724-284d-478c-b8bc-ef042aa5b70b.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tmp8s2vi6q5.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="businessname" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="dbaname" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="legalowner" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="namelast" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="namefirst" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="licenseno" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="issdttm" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="expdttm" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="licstatus" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="licensecat" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="descript" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="result" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="resultdttm" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="violation" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="viollevel" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="violdesc" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="violdttm" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="violstatus" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="statusdate" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="comments" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="zip" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="property_id" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+            <Field name="location" size="254" source="File: C:\Users\Pratik\Downloads\tmp8s2vi6q5.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BusinessName" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="ZIP" selected="True" />
+            <SelectField field="DESCRIPT" selected="True" />
+            <SelectField field="dayphn" selected="True" />
+            <SelectField field="Property_ID" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="businessname" selected="True" />
+            <SelectField field="legalowner" selected="True" />
+            <SelectField field="namelast" selected="True" />
+            <SelectField field="namefirst" selected="True" />
+            <SelectField field="licenseno" selected="True" />
+            <SelectField field="issdttm" selected="True" />
+            <SelectField field="expdttm" selected="True" />
+            <SelectField field="licensecat" selected="True" />
+            <SelectField field="descript" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="zip" selected="True" />
+            <SelectField field="property_id" selected="True" />
+            <SelectField field="location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="450" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>location</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>longitude</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="354" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>location</Field>
+          <RegExExpression value="[()]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>location</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_String" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>businessname_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Pratik\AppData\Local\Temp\Engine_24176_f01e9b36fa98461b89e5df02329a58e0_\Engine_31528_f72133aa78164df5aef9b0b9d5da7834_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="318" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="BusinessName" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="258" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="businessname" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="522" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="BusinessName" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="businessname" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_businessname" selected="True" rename="Input_#2_businessname" />
+                <SelectField field="Input_#2_descript" selected="True" rename="Input_#2_descript" />
+                <SelectField field="Input_#2_address" selected="True" rename="Input_#2_address" />
+                <SelectField field="Input_#2_zip" selected="True" rename="Input_#2_zip" />
+                <SelectField field="Input_#2_property_id" selected="True" rename="Input_#2_property_id" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BusinessName" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="ZIP" selected="True" />
+            <SelectField field="DESCRIPT" selected="True" />
+            <SelectField field="dayphn" selected="True" rename="Phone" />
+            <SelectField field="Property_ID" selected="True" />
+            <SelectField field="legalowner" selected="True" />
+            <SelectField field="namelast" selected="True" />
+            <SelectField field="namefirst" selected="True" />
+            <SelectField field="licenseno" selected="True" />
+            <SelectField field="issdttm" selected="True" />
+            <SelectField field="expdttm" selected="True" />
+            <SelectField field="licensecat" selected="True" />
+            <SelectField field="longitude1" selected="True" rename="Latitude" />
+            <SelectField field="longitude2" selected="True" rename="Longitude" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="821" y="17" width="829" height="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 76</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="858" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Property_ID]=Null() or [Property_ID]=&quot;&quot; or IsEmpty([Property_ID]) THEN &quot;Not available&quot; ELSE [Property_ID] ENDIF" field="Property_ID" size="254" type="V_String" />
+                <FormulaField expression="IF [Phone]=Null() or [Phone]=&quot;&quot; or IsEmpty([Phone]) THEN &quot;Not available&quot; ELSE [Phone] ENDIF" field="Phone" size="254" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Property_ID = IF [Property_ID]=Null() or [Property_ID]="" or IsEmpty([Property_I...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="846" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:DESKTOP-VUL0G24|||select DimType.* 
+from DimType</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-VUL0G24
+Query=select DimType.* 
+from DimT...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="TypeKey" source="File: aka:DESKTOP-VUL0G24|||select DimType.* &#xA;from DimType" type="Int32" />
+                <Field name="TypeDescription" size="254" source="File: aka:DESKTOP-VUL0G24|||select DimType.* &#xA;from DimType" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="1086" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:DESKTOP-VUL0G24|||select DimGeography.GeographyKey,
+	DimGeography.ZIP 
+from DimGeography</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-VUL0G24
+Query=select DimGeography.Geograph...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="GeographyKey" source="File: aka:DESKTOP-VUL0G24|||select DimGeography.GeographyKey,&#xA;	DimGeography.ZIP &#xA;from DimGeography" type="Int32" />
+                <Field name="ZIP" size="254" source="File: aka:DESKTOP-VUL0G24|||select DimGeography.GeographyKey,&#xA;	DimGeography.ZIP &#xA;from DimGeography" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1362" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RestaurantKey</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1566" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Pratik\AppData\Local\Temp\Engine_24176_f01e9b36fa98461b89e5df02329a58e0_\Engine_31528_88dadaeb77bd4e52a907e34925c3c173_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings>
+            <Position x="990" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Phone","legalowner","Latitude","Longitude"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1110" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="DESCRIPT" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="TypeDescription" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1266" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="ZIP" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="ZIP" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_BusinessName" selected="True" input="Left_" />
+                    <SelectField field="Left_Address" selected="True" input="Left_" />
+                    <SelectField field="Left_Phone" selected="True" input="Left_" />
+                    <SelectField field="Left_Property_ID" selected="True" input="Left_" />
+                    <SelectField field="Left_legalowner" selected="True" input="Left_" />
+                    <SelectField field="Left_namelast" selected="True" input="Left_" />
+                    <SelectField field="Left_namefirst" selected="True" input="Left_" />
+                    <SelectField field="Left_licenseno" selected="True" input="Left_" />
+                    <SelectField field="Left_issdttm" selected="True" input="Left_" />
+                    <SelectField field="Left_expdttm" selected="True" input="Left_" />
+                    <SelectField field="Left_licensecat" selected="True" input="Left_" />
+                    <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                    <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                    <SelectField field="Left_TypeKey" selected="True" input="Left_" />
+                    <SelectField field="Left_TypeDescription" selected="True" input="Left_" />
+                    <SelectField field="Right_GeographyKey" selected="True" input="Right_" />
+                    <SelectField field="Right_ZIP" selected="True" rename="Right_ZIP" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1458" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RestaurantKey" selected="True" />
+                <SelectField field="BusinessName" selected="True" />
+                <SelectField field="legalowner" selected="True" />
+                <SelectField field="TypeKey" selected="True" />
+                <SelectField field="Phone" selected="True" />
+                <SelectField field="Address" selected="True" rename="Street" />
+                <SelectField field="GeographyKey" selected="True" />
+                <SelectField field="Property_ID" selected="True" />
+                <SelectField field="namelast" selected="True" />
+                <SelectField field="namefirst" selected="True" />
+                <SelectField field="licenseno" selected="True" />
+                <SelectField field="issdttm" selected="True" rename="IssueDate" />
+                <SelectField field="expdttm" selected="True" rename="ExpiryDate" />
+                <SelectField field="licensecat" selected="True" rename="LicenseCategory" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="TypeDescription" selected="False" />
+                <SelectField field="Right_ZIP" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1685" y="53" width="152" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 75</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1710" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-VUL0G24|||DimRestaurant</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>False</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL>ALTER TABLE DimRestaurant
+ALTER COLUMN RestaurantKey int  NOT NULL;
+ 
+ALTER TABLE DimRestaurant
+ADD PRIMARY KEY (RestaurantKey);
+
+Alter Table DimRestaurant
+ADD FOREIGN KEY(GeographyKey) REFERENCES DimGeography(GeographyKey),
+FOREIGN KEY(TypeKey) REFERENCES DimType(TypeKey)</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-VUL0G24
+Query=DimRestaurant</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="72" Connection="Unique" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Unique" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="65" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="78" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output26" />
+      <Destination ToolID="78" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="79" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Join" />
+      <Destination ToolID="79" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DimRestaurant</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="fb22a8a9-c99b-4456-89b6-5507c8adea3c" />
+      <Telemetry>
+        <PreviousWorkflowId value="2db9b035-c4c2-45ab-9291-8b552e092127" />
+        <OriginWorkflowId value="2db9b035-c4c2-45ab-9291-8b552e092127" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
