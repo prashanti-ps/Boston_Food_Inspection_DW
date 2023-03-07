@@ -27,3 +27,6 @@ Table row counts
 ## Tools
 Alteryx
 ER/Studio
+MySQL
+
+
