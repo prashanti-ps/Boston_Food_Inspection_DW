@@ -20,13 +20,16 @@ Dimensional Data Model (ER/Studio)
 DDL script for the database being used
 Schema in the chosen database
 Data preparation workflow to load data (Alteryx)
-Loaded data
-Screenshots of each of the above
-ER/Studio dm1 file, DDL script, Alteryx file
-Table row counts
+and complete data prep
+
+ER/Studio dimensional Model  
+DDL script  
+Alteryx Workflows  
+Table row counts  
+
 ## Tools
-Alteryx
-ER/Studio
-MySQL
+Alteryx  
+ER/Studio  
+MySQL  
 
 
